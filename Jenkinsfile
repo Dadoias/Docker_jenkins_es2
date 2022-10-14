@@ -7,5 +7,6 @@ pipeline{
     stages{
         stage('boh') {
             steps {
-                sh 'docker run davideias/myrepository '  } } } }
+                //sh 'docker run davideias/myrepository '  
+            } } } }
 
