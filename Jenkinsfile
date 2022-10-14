@@ -1,7 +1,7 @@
 pipeline{
     agent{
         docker{
-            image 'davideias/myrepository:latest'
+            image 'davideias/ubuntu_environment:latest'
         }
     }
     stages{
