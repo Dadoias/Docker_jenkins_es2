@@ -9,5 +9,7 @@ pipeline{
             steps {
                 sh 'echo "Davide"'
                 //sh 'docker run davideias/myrepository '  
-            } } } }
-
+            }
+        }
+    }
+}
