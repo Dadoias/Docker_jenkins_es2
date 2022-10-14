@@ -1,14 +1,15 @@
 pipeline{
     agent{
         docker{
-            image 'davideias/myrepository:latest'
+            image 'davideias/docker_example:latest'
         }
     }
     stages{
         stage('boh') {
             steps {
-                sh 'echo "Davide"' 
+                sh 'echo "HelloWorld"'
             }
         }
     }
 }
+   
