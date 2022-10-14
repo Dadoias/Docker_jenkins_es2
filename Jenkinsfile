@@ -10,7 +10,8 @@ pipeline{
                 sh 'pwd'
                 sh 'ls'
                 //sh 'cd ~/Desktop'
-                //sh 'touch test.txt'
+                sh 'touch test.txt'
+                sh 'ls'
             }
         }
     }
