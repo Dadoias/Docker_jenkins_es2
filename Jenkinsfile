@@ -7,7 +7,7 @@ pipeline{
     stages{
         stage('boh') {
             steps {
-                sh 'echo "HelloWorld"'
+                sh 'pwd'
             }
         }
     }
