@@ -8,8 +8,7 @@ pipeline{
         stage('boh') {
             steps {
                 sh 'pwd'
-                sh 'cd ..'
-                sh 'pwd'
+                sh 'ls'
                 //sh 'cd ~/Desktop'
                 //sh 'touch test.txt'
             }
